@@ -1,0 +1,247 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Cairo;
+  color: #6f96aa;
+}
+body {
+  background: linear-gradient(
+    to right,
+    #f1f6fa 0%,
+    #f1f6fa 60%,
+    white 59%,
+    white 100%
+  );
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  width: 65px;
+  height: 785px;
+  border: 1px solid rgb(235, 232, 232);
+  margin-left: 13px;
+  margin-top: 10px;
+  padding-left: 10px;
+  background-color: white;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+  margin-top: 8px;
+}
+
+img:hover {
+  cursor: pointer;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.box {
+  width: 200px;
+  height: 515px;
+  margin-left: -85px;
+  background-color: white;
+  border-radius: 15px;
+  margin-top: 95px;
+  border: 1px solid rgb(235, 232, 232);
+}
+.sub-box-1 {
+  width: 140px;
+  height: 35px;
+  background-color: #ff844b;
+  margin-left: 30px;
+  margin-top: 20px;
+  border-radius: 7px;
+  color: white;
+  display: flex;
+  text-align: center;
+}
+.sub-box-2 {
+  width: 140px;
+  height: 35px;
+  box-shadow: 2px 2px 1px rgb(236, 233, 233);
+  background-color: #ffffff;
+  margin-left: 30px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border-radius: 7px;
+  color: #ff844b;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+.sub-box-2 span {
+  padding: 1rem;
+}
+
+.sub-box-3 {
+  width: 140px;
+  height: 40px;
+  margin-left: 30px;
+
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+}
+
+.add-mail {
+  margin-left: 25px;
+  margin-top: 2px;
+}
+
+.icons {
+  width: 20px;
+  height: 20px;
+  padding: 0.1rem;
+  margin-top: 15px;
+  padding-right: 1rem;
+}
+
+.menu {
+  margin-left: 75px;
+  margin-top: 1px;
+}
+
+.search {
+  margin-top: 500px;
+}
+form.example input[type="text"] {
+  padding: 10px;
+  font-size: 15px;
+  float: left;
+  width: 85%;
+  margin-left: -30px;
+  border-radius: 10px;
+  margin-top: -10px;
+  border: 1px solid rgb(255, 255, 255);
+}
+.search-bar {
+  margin-top: 40px;
+}
+
+.search-icon {
+  position: absolute;
+  top: 106px;
+  margin-left: 55px;
+}
+
+.content-box {
+  padding-top: 20px;
+  width: 395px;
+  height: 135px;
+  border: 1px solid white;
+  margin-left: 30px;
+  border-radius: 10px;
+  margin-top: 40px;
+  background-color: white;
+  display: flex;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.425);
+}
+.content-box1 {
+  width: 395px;
+  height: 135px;
+  border: 1px solid #e3ebf1;
+  margin-left: 30px;
+  border-radius: 10px;
+  margin-top: 20px;
+  background-color: #e3ebf1;
+  display: flex;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.425);
+}
+.content-box2 {
+  width: 395px;
+  height: 135px;
+  border: 1px solid white;
+  margin-left: 30px;
+  border-radius: 10px;
+  margin-top: 20px;
+  background-color: white;
+  display: flex;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.425);
+}
+h5 {
+  margin-left: 15px;
+  margin-bottom: 14px;
+  margin-top: 7px;
+  color: black;
+}
+.square {
+  margin-top: 10px;
+  margin-left: 15px;
+  width: 120px;
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 13px;
+  border-color: #6f96aa;
+  background-color: #6f96aa;
+}
+.para {
+  margin-top: 5px;
+  margin-left: 15px;
+  font-size: 12px;
+}
+.scroll::-webkit-scrollbar {
+  display: none;
+}
+.scroll {
+  width: 455px;
+  height: 480px;
+  overflow: scroll;
+}
+.lil {
+  display: flex;
+  margin-top: 15px;
+  margin-bottom: 0.8rem;
+  margin-left: -10px;
+}
+.group-img {
+  height: 40px;
+}
+.text-box {
+  margin-top: 100px;
+}
+.label-font {
+  padding-left: 25px;
+  color: black;
+}
+.right-content {
+  margin-left: 105px;
+}
+.tour {
+  margin-top: 15px;
+  color: black;
+  display: flex;
+
+}
+.word {
+  margin-left: 15px;
+  margin-bottom: 1rem;
+  color: black;
+  margin-top: 0px;
+}
+.word1 {
+  margin-top: 20px;
+  margin-left: -65px;
+  font-size: 12px;
+}
+.i-1{
+    margin-left: 295px;
+    height: 25px;
+    width: 90px;
+}
+.i-2{
+    margin-left: 250px;
+    height: 20px;
+}
+.m-1{
+    width: 40px;
+    height: 40px;
+}
